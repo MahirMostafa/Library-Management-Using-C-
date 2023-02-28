@@ -1,0 +1,214 @@
+﻿++Solution 'Library Management Login' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Library Management Login.sln
+++Library Management Login
+i:{00000000-0000-0000-0000-000000000000}:Library Management Login
+++Properties
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\
+++References
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\.designer.cs
+++Addbook.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\addbook.cs
+++App.config
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\app.config
+++Bookstock.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock.cs
+++Bookstock.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock.designer.cs
+++Bookstock.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock.resx
+++BookStock1.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock1.cs
+++BorrowBooks.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\borrowbooks.cs
+++Database1.mdf
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\database1.mdf
+++DBAccess.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\dbaccess.cs
+++DeleteBooks.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deletebooks.cs
+++Deleteuserform.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deleteuserform.cs
+++Form1.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form1.cs
+++Form10.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form10.cs
+++Form11.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form11.cs
+++Form12.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form12.cs
+++Form12.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form12.designer.cs
+++Form12.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form12.resx
+++Form13.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form13.cs
+++Form14.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form14.cs
+++Form15.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form15.cs
+++Form16.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form16.cs
+++Form17.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form17.cs
+++Form2.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form2.cs
+++Form2.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form2.designer.cs
+++Form2.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form2.resx
+++Form3.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form3.cs
+++Form4.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form4.cs
+++Form5.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form5.cs
+++Form6.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form6.cs
+++Form6.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form6.designer.cs
+++Form6.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form6.resx
+++Form7.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form7.cs
+++Form8.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form8.cs
+++Form8.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form8.designer.cs
+++Form8.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form8.resx
+++Form9.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form9.cs
+++PassRecover.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover.cs
+++PassRecover1.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover1.cs
+++PassRecover3.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover3.cs
+++Program.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\program.cs
+++UserControl1.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\usercontrol1.cs
+++UserControl2.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\usercontrol2.cs
+++UserControl3.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\usercontrol3.cs
+++AssemblyInfo.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\assemblyinfo.cs
+++Resources.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\resources.resx
+++Settings.settings
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\settings.settings
+++Microsoft.CSharp
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Core
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Data
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Data.DataSetExtensions
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Deployment
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Drawing
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Net.Http
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Windows.Forms
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Xml
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++System.Xml.Linq
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:
+++Addbook.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\addbook.designer.cs
+++Addbook.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\addbook.resx
+++BookStock1.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock1.designer.cs
+++BookStock1.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\bookstock1.resx
+++BorrowBooks.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\borrowbooks.designer.cs
+++BorrowBooks.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\borrowbooks.resx
+++Database1_log.ldf
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\database1_log.ldf
+++DeleteBooks.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deletebooks.designer.cs
+++DeleteBooks.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deletebooks.resx
+++Deleteuserform.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deleteuserform.designer.cs
+++Deleteuserform.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\deleteuserform.resx
+++Form1.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form1.designer.cs
+++Form1.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form1.resx
+++Form10.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form10.designer.cs
+++Form10.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form10.resx
+++Form11.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form11.designer.cs
+++Form11.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form11.resx
+++Form13.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form13.designer.cs
+++Form13.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form13.resx
+++Form14.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form14.designer.cs
+++Form14.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form14.resx
+++Form15.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form15.designer.cs
+++Form15.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form15.resx
+++Form16.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form16.designer.cs
+++Form16.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form16.resx
+++Form17.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form17.designer.cs
+++Form17.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form17.resx
+++Form3.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form3.designer.cs
+++Form3.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form3.resx
+++Form4.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form4.designer.cs
+++Form4.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form4.resx
+++Form5.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form5.designer.cs
+++Form5.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form5.resx
+++Form7.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form7.designer.cs
+++Form7.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form7.resx
+++Form9.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form9.designer.cs
+++Form9.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\form9.resx
+++PassRecover.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover.designer.cs
+++PassRecover.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover.resx
+++PassRecover1.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover1.designer.cs
+++PassRecover1.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover1.resx
+++PassRecover3.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover3.designer.cs
+++PassRecover3.resx
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\passrecover3.resx
+++Resources.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{c6bb580d-dd41-4d3e-95f6-0a504a8a7ca0}:d:\library management login\library management login\properties\settings.designer.cs

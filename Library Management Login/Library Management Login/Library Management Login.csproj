@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6BB580D-DD41-4D3E-95F6-0A504A8A7CA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Library_Management_Login</RootNamespace>
+    <AssemblyName>Library Management Login</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include=".Designer.cs" />
+    <Compile Include="Addbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addbook.Designer.cs">
+      <DependentUpon>Addbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookCart1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookCart1.Designer.cs">
+      <DependentUpon>BookCart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStatus2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStatus2.Designer.cs">
+      <DependentUpon>BookStatus2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookstock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookstock.Designer.cs">
+      <DependentUpon>Bookstock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStock1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStock1.Designer.cs">
+      <DependentUpon>BookStock1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowBooks.Designer.cs">
+      <DependentUpon>BorrowBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBAccess.cs" />
+    <Compile Include="DeleteBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteBooks.Designer.cs">
+      <DependentUpon>DeleteBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleteuserform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleteuserform.Designer.cs">
+      <DependentUpon>Deleteuserform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassRecover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassRecover.Designer.cs">
+      <DependentUpon>PassRecover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassRecover1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassRecover1.Designer.cs">
+      <DependentUpon>PassRecover1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassRecover3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassRecover3.Designer.cs">
+      <DependentUpon>PassRecover3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBook.Designer.cs">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs" />
+    <Compile Include="UserControl2.cs" />
+    <Compile Include="UserControl3.cs" />
+    <EmbeddedResource Include="Addbook.resx">
+      <DependentUpon>Addbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookCart1.resx">
+      <DependentUpon>BookCart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStatus2.resx">
+      <DependentUpon>BookStatus2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookstock.resx">
+      <DependentUpon>Bookstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStock1.resx">
+      <DependentUpon>BookStock1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowBooks.resx">
+      <DependentUpon>BorrowBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteBooks.resx">
+      <DependentUpon>DeleteBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleteuserform.resx">
+      <DependentUpon>Deleteuserform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassRecover.resx">
+      <DependentUpon>PassRecover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassRecover1.resx">
+      <DependentUpon>PassRecover1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassRecover3.resx">
+      <DependentUpon>PassRecover3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReturnBook.resx">
+      <DependentUpon>ReturnBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
